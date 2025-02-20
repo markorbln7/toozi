@@ -1,130 +1,116 @@
-{%- assign heading_font_italic = settings.heading_font | font_modify: 'style', 'italic' -%}
+{%- style -%}
+    :root {
+    --typeHeaderPrimary: {{ settings.type_header_font_family.family }};
+    --typeHeaderFallback: {{ settings.type_header_font_family.fallback_families }};
+    --typeHeaderSize: {{ settings.type_header_base_size | default: '32' | append: 'px' }};
+    --typeHeaderWeight: {{ settings.type_header_font_family.weight }};
+    --typeHeaderLineHeight: {{ settings.type_header_line_height | default: 1.4 }};
+    --typeHeaderSpacing: {{ settings.type_header_spacing | default: '25' | divided_by: 1000.00 | append: 'em' }};
 
-{%- assign text_font_medium = settings.text_font | font_modify: 'weight', '500' -%}
-{%- assign text_font_semibold = settings.text_font | font_modify: 'weight', '600' -%}
-{%- assign text_font_bold = settings.text_font | font_modify: 'weight', 'bolder' -%}
-{%- assign text_font_italic = settings.text_font | font_modify: 'style', 'italic' -%}
-{%- assign text_font_bold_italic = text_font_bold | font_modify: 'style', 'italic' -%}
+    --typeBasePrimary:{{ settings.type_base_font_family.family }};
+    --typeBaseFallback:{{ settings.type_base_font_family.fallback_families }};
+    --typeBaseSize: {{ settings.type_base_size | default: 16 | append: 'px' }};
+    --typeBaseWeight: {{ settings.type_base_font_family.weight }};
+    --typeBaseSpacing: {{ settings.type_base_spacing | default: '50' | divided_by: 1000.00 | append: 'em' }};
+    --typeBaseLineHeight: {{ settings.type_base_line_height | default: 1.4 }};
+    --typeBaselineHeightMinus01: {{ settings.type_base_line_height | default: 1.4 | minus: 0.1 }};
 
-{%- assign text_font_bolder_weight = 'bolder' -%}
+    --typeCollectionTitle: {{ settings.type_collection_size | append: 'px' }};
 
-{%- unless settings.heading_font.system? -%}
-  <link rel="preload" href="{{ settings.heading_font | font_url }}" as="font" type="font/woff2" crossorigin>
-{%- endunless -%}
+    --iconWeight: {{ settings.icon_weight | default: '5px' }};
+    --iconLinecaps: {{ settings.icon_linecaps | default: 'miter' }};
 
-{%- unless settings.text_font.system? -%}
-  <link rel="preload" href="{{ settings.text_font | font_url }}" as="font" type="font/woff2" crossorigin>
-{%- endunless -%}
+    {% if settings.button_style == 'round-slight' %}
+        --buttonRadius: 3px;
+    {% elsif settings.button_style == 'round' %}
+        --buttonRadius: 50px;
+    {% else %}
+        --buttonRadius: 0;
+    {% endif %}
 
-<style>
-  {{ settings.heading_font | font_face: font_display: 'swap' }}
-  {{ settings.text_font | font_face: font_display: 'swap' }}
+    --colorGridOverlayOpacity: {{ settings.collection_grid_opacity | divided_by: 100.0 }};
+    --colorAnnouncement: {{ settings.color_announcement | default: "#1c1d1d" }};
+    --colorAnnouncementText: {{ settings.color_announcement_text | default: "#fff" }};
 
-  {%- if text_font_semibold -%}
-    {{ text_font_semibold | font_face: font_display: 'swap' }}
-    {%- assign text_font_bolder_weight = text_font_semibold.weight -%}
-  {%- elsif text_font_medium -%}
-    {{ text_font_medium | font_face: font_display: 'swap' }}
-    {%- assign text_font_bolder_weight = text_font_medium.weight -%}
-  {%- endif -%}
+    --colorBody: {{ settings.color_body_bg | default: "#fff" }};
+    --colorBodyAlpha05: {{ settings.color_body_bg | default: "#fff" | color_modify: 'alpha', 0.05 }};
+    --colorBodyDim: {{ settings.color_body_bg | default: "#1c1d1d" | color_darken: 5 }};
+    --colorBodyLightDim: {{ settings.color_body_bg | default: '#fff' | color_darken: 2 }};
+    --colorBodyMediumDim: {{ settings.color_body_bg | default: '#fff' | color_darken: 4 }};
 
-  {{ heading_font_italic | font_face: font_display: 'swap' }}
 
-  {{ text_font_bold | font_face: font_display: 'swap' }}
-  {{ text_font_italic | font_face: font_display: 'swap' }}
-  {{ text_font_bold_italic | font_face: font_display: 'swap' }}
+    --colorBorder: {{ settings.color_borders | default: "#1c1d1d" }};
 
-  :root {
-    --default-text-font-size : 15px;
-    --base-text-font-size    : {{ settings.base_text_font_size }}px;
-    --heading-font-family    : {{ settings.heading_font.family }}, {{ settings.heading_font.fallback_families }};
-    --heading-font-weight    : {{ settings.heading_font.weight }};
-    --heading-font-style     : {{ settings.heading_font.style }};
-    --text-font-family       : {{ settings.text_font.family }}, {{ settings.text_font.fallback_families }};
-    --text-font-weight       : {{ settings.text_font.weight }};
-    --text-font-style        : {{ settings.text_font.style }};
-    --text-font-bolder-weight: {{ text_font_bolder_weight }};
-    --text-link-decoration   : {% if settings.underline_links %}underline{% else %}normal{% endif %};
+    --colorBtnPrimary: {{ settings.color_button | default: "#000" }};
+    --colorBtnPrimaryLight: {{ settings.color_button | default: "#000" | color_lighten: 10 }};
+    --colorBtnPrimaryDim: {{ settings.color_button | default: "#000" | color_darken: 5 }};
+    --colorBtnPrimaryText: {{ settings.color_button_text | default: "#fff" }};
 
-    --text-color               : {{ settings.text_color }};
-    --text-color-rgb           : {{ settings.text_color | color_extract: 'red' }}, {{ settings.text_color | color_extract: 'green' }}, {{ settings.text_color | color_extract: 'blue' }};
-    --heading-color            : {{ settings.heading_color }};
-    --border-color             : {{ settings.border_color }};
-    --border-color-rgb         : {{ settings.border_color | color_extract: 'red' }}, {{ settings.border_color | color_extract: 'green' }}, {{ settings.border_color | color_extract: 'blue' }};
-    --form-border-color        : {{ settings.border_color | color_darken: 5 }};
-    --accent-color             : {{ settings.accent_color }};
-    --accent-color-rgb         : {{ settings.accent_color | color_extract: 'red' }}, {{ settings.accent_color | color_extract: 'green' }}, {{ settings.accent_color | color_extract: 'blue' }};
-    --link-color               : {{ settings.link_color }};
-    --link-color-hover         : {{ settings.link_color | color_darken: 15 }};
-    --background               : {{ settings.background }};
-    --secondary-background     : {{ settings.secondary_background }};
-    --secondary-background-rgb : {{ settings.secondary_background | color_extract: 'red' }}, {{ settings.secondary_background | color_extract: 'green' }}, {{ settings.secondary_background | color_extract: 'blue' }};
-    --accent-background        : {{settings.accent_color | color_modify: 'alpha', 0.08 }};
+    --colorCartDot: {{ settings.color_cart_dot | default: "#ff4f33" }};
 
-    --input-background: {% if settings.secondary_background == settings.text_color %}{% else %}{{ settings.secondary_background }}{% endif %};
+    --colorDrawers: {{ settings.color_drawer_background | default: "#1c1d1d" }};
+    --colorDrawersDim: {{ settings.color_drawer_background | default: "#1c1d1d" | color_darken: 5 }};
+    --colorDrawerBorder: {{ settings.color_drawer_border | default: "#343535" }};
+    --colorDrawerText: {{ settings.color_drawer_text | default: "#fff" }};
+    --colorDrawerTextDark: {{ settings.color_drawer_text | default: "#fff" | color_darken: 15 }};
+    --colorDrawerButton: {{ settings.color_drawer_button | default: "#a26b25" }};
+    --colorDrawerButtonText: {{ settings.color_drawer_button_text | default: "#fff" }};
 
-    --error-color       : {{ settings.error_color }};
-    --error-background  : {{ settings.error_color | color_modify: 'alpha', 0.07 }};
-    --success-color     : {{ settings.success_color }};
-    --success-background: {{ settings.success_color | color_modify: 'alpha', 0.11 }};
+    --colorFooter: {{ settings.color_footer | default: "#111" }};
+    --colorFooterText: {{ settings.color_footer_text | default: "#fff" }};
+    --colorFooterTextAlpha01: {{ settings.color_footer_text | default: "#fff" }};
 
-    --primary-button-background      : {{ settings.primary_button_background }};
-    --primary-button-background-rgb  : {{ settings.primary_button_background | color_extract: 'red' }}, {{ settings.primary_button_background | color_extract: 'green' }}, {{ settings.primary_button_background | color_extract: 'blue' }};
-    --primary-button-text-color      : {{ settings.primary_button_text_color }};
-    --secondary-button-background    : {{ settings.secondary_button_background }};
-    --secondary-button-background-rgb: {{ settings.secondary_button_background | color_extract: 'red' }}, {{ settings.secondary_button_background | color_extract: 'green' }}, {{ settings.secondary_button_background | color_extract: 'blue' }};
-    --secondary-button-text-color    : {{ settings.secondary_button_text_color }};
+    --colorGridOverlay: {{ settings.collection_grid_tint | default: "#000" }};
+    --colorGridOverlayOpacity: 0.1;
 
-    --header-background      : {{ settings.header_background }};
-    --header-text-color      : {{ settings.header_text_color }};
-    --header-light-text-color: {{ settings.header_light_text_color }};
-    --header-border-color    : {{ settings.header_light_text_color | color_modify: 'alpha', 0.30 }};
-    --header-accent-color    : {{ settings.header_accent_color }};
+    --colorHeaderTextAlpha01: {{ settings.color_header_text | default: '#000' | color_modify: 'alpha', 0.1 }};
 
-    --footer-background-color:    {{ settings.footer_background_color }};
-    --footer-heading-text-color:  {{ settings.footer_heading_text_color }};
-    --footer-body-text-color:     {{ settings.footer_body_text_color }};
-    --footer-body-text-color-rgb: {{ settings.footer_body_text_color | color_extract: 'red' }}, {{ settings.footer_body_text_color | color_extract: 'green' }}, {{ settings.footer_body_text_color | color_extract: 'blue' }};
-    --footer-accent-color:        {{ settings.footer_accent_color }};
-    --footer-accent-color-rgb:    {{ settings.footer_accent_color | color_extract: 'red' }}, {{ settings.footer_accent_color | color_extract: 'green' }}, {{ settings.footer_accent_color | color_extract: 'blue' }};
-    --footer-border:              {% if settings.footer_background_color == settings.background %}1px solid var(--border-color){% else %}none{% endif %};
-    
-    --flickity-arrow-color: {{ settings.border_color | color_darken: 20 }};
+    --colorHeroText: {{ settings.color_image_text | default: "#fff" }};
 
-    {%- assign product_on_sale_lightness = settings.product_on_sale_accent | color_extract: 'lightness' -%}
-    {%- assign product_custom_label_1_lightness = settings.product_label_1_background | color_extract: 'lightness' -%}
-    {%- assign product_custom_label_2_lightness = settings.product_label_2_background | color_extract: 'lightness' -%}
+    --colorSmallImageBg: {{ settings.color_small_image_bg | default: "#eee" }};
+    --colorLargeImageBg: {{ settings.color_large_image_bg | default: "#1c1d1d" }};
 
-    --product-on-sale-accent           : {{ settings.product_on_sale_accent }};
-    --product-on-sale-accent-rgb       : {{ settings.product_on_sale_accent | color_extract: 'red' }}, {{ settings.product_on_sale_accent | color_extract: 'green' }}, {{ settings.product_on_sale_accent | color_extract: 'blue' }};
-    --product-on-sale-color            : {% if product_on_sale_lightness < 65 %}#ffffff{% else %}#000000{% endif %};
-    --product-in-stock-color           : {{ settings.product_in_stock_color }};
-    --product-low-stock-color          : {{ settings.product_low_stock_color }};
-    --product-sold-out-color           : {{ settings.product_sold_out_color }};
-    --product-custom-label-1-background: {{ settings.product_label_1_background }};
-    --product-custom-label-1-color     : {% if product_custom_label_1_lightness < 65 %}#ffffff{% else %}#000000{% endif %};
-    --product-custom-label-2-background: {{ settings.product_label_2_background }};
-    --product-custom-label-2-color     : {% if product_custom_label_2_lightness < 65 %}#ffffff{% else %}#000000{% endif %};
-    --product-review-star-color        : {{ settings.product_star_color }};
+    --colorImageOverlay: {{ settings.color_image_overlay | default: "#000" }};
+    --colorImageOverlayOpacity: {{ settings.color_image_overlay_opacity | divided_by: 100.0 }};
+    --colorImageOverlayTextShadow: {{ settings.color_image_overlay_text_shadow | divided_by: 100.0 }};
 
-    --mobile-container-gutter : 20px;
-    --desktop-container-gutter: 40px;
+    --colorLink: {{ settings.color_body_text | default: "#1c1d1d" }};
 
-    /* Shopify related variables */
-    --payment-terms-background-color: {{ settings.background }};
-  }
-</style>
+    --colorModalBg: {{ settings.color_modal_overlays | default: "#000" | color_modify: 'alpha', 0.6 }};
 
-<script>
-  // IE11 does not have support for CSS variables, so we have to polyfill them
-  if (!(((window || {}).CSS || {}).supports && window.CSS.supports('(--a: 0)'))) {
-    const script = document.createElement('script');
-    script.type = 'text/javascript';
-    script.src = 'https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2';
-    script.onload = function() {
-      cssVars({});
-    };
+    --colorNav: {{ settings.color_header | default: "#fff" }};
+    --colorNavText: {{ settings.color_header_text | default: "#000" }};
 
-    document.getElementsByTagName('head')[0].appendChild(script);
-  }
-</script>
+    --colorPrice: {{ settings.color_price | default: "#1c1d1d" }};
+
+    --colorSaleTag: {{ settings.color_sale_tag | default: "#1c1d1d" }};
+    --colorSaleTagText: {{ settings.color_sale_tag_text | default: "#ffffff" }};
+
+    --colorTextBody: {{ settings.color_body_text | default: "#1c1d1d" }};
+    --colorTextBodyAlpha015: {{ settings.color_body_text | default: '#1c1d1d' | color_modify: 'alpha', 0.15 }};
+    --colorTextBodyAlpha005: {{ settings.color_body_text | default: "#1c1d1d"  | color_modify: 'alpha', 0.05 }};
+    --colorTextBodyAlpha008: {{ settings.color_body_text | default: '#1c1d1d' | color_modify: 'alpha', 0.08 }};
+    --colorTextSavings: {{ settings.color_savings_text | default: "#1c1d1d" }};
+
+    --urlIcoSelect: url({{ 'ico-select.svg' | asset_url | split: '?' | first }});
+    --urlIcoSelectFooter: url({{ 'ico-select-footer.svg' | asset_url | split: '?' | first }});
+    --urlIcoSelectWhite: url({{ 'ico-select-white.svg' | asset_url | split: '?' | first }});
+
+    --grid-gutter: 17px;
+    --drawer-gutter: 20px;
+
+    --sizeChartMargin: 25px 0;
+    --sizeChartIconMargin: 5px;
+
+    --newsletterReminderPadding: 40px;
+
+    /*Shop Pay Installments*/
+    --color-body-text: {{ settings.color_body_text | default: "#1c1d1d" }};
+    --color-body: {{ settings.color_body_bg | default: "#fff" }};
+    --color-bg: {{ settings.color_body_bg | default: "#fff" }};
+    }
+
+    .placeholder-content {
+    background-image: linear-gradient(100deg, {{ settings.color_small_image_bg }} 40%, {{ settings.color_small_image_bg | color_darken: 3 }} 63%, {{ settings.color_small_image_bg }} 79%);
+    }
+{%- endstyle -%}

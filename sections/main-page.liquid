@@ -1,25 +1,17 @@
-<section data-section-id="{{ section.id }}" data-section-type="page">
-  <div class="container container--narrow">
-    <header class="page__header page__header--centered page__header--stack">
-      <h1 class="page__title heading h1">{{ page.title }}</h1>
+<div class="page-width page-width--narrow page-content">
+  {%- render 'breadcrumbs' -%}
+  <header class="section-header">
+    <h1 class="section-header__title">{{ page.title }}</h1>
+  </header>
 
-      {%- if page.content != blank and page.template_suffix == 'contact' or page.template_suffix == 'team' -%}
-        <div class="page__description rte">
-          {{ page.content }}
-        </div>
-      {%- endif -%}
-    </header>
-
-    {%- if page.content != blank and page.template_suffix != 'contact' and page.template_suffix != 'team' -%}
-      <div class="page__content rte">
-        {{ page.content }}
-      </div>
-    {%- endif -%}
+  <div class="rte rte--nomargin">
+    {{ page.content }}
   </div>
-</section>
+</div>
 
 {% schema %}
 {
-  "name": "Page"
+  "name": "t:sections.main-page.name",
+  "tag": "section"
 }
 {% endschema %}

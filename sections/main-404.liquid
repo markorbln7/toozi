@@ -1,29 +1,14 @@
-<section data-section-id="{{ section.id }}" data-section-type="404">
-  <div class="container">
-    <div class="empty-state">
-      <p class="empty-state__heading heading h1">{{ '404.general.title' | t }}</p>
-      <p class="empty-state__description">{{ '404.general.content' | t }}</p>
-
-      <form class="empty-state__quick-form" action="{{ routes.search_url }}" method="get">
-        <input type="hidden" name="type" value="product">
-
-        <div class="form__connected-item">
-          <div class="form__input-wrapper form__input-wrapper--labelled">
-            <input id="4O4-search" type="text" class="form__field form__field--text" name="q" autocomplete="off" autocorrect="off">
-            <label for="4O4-search" class="form__floating-label">{{ '404.general.search' | t }}</label>
-          </div>
-
-          <button type="submit" class="form__connection button button--primary" aria-label="{{ '404.general.search' | t }}">{% render 'icon', icon: 'search' %}</button>
-        </div>
-      </form>
-
-      <a href="{{ routes.root_url }}" class="empty-state__link link link--accented">{{ '404.general.continue_shopping' | t }}</a>
+<div class="page-width page-content">
+  <header class="section-header section-header--404">
+    <h1 class="section-header__title">{{ 'general.404.title' | t }}</h1>
+    <div class="rte text-spacing">
+      {{ 'general.404.subtext_html' | t: url: routes.root_url }}
     </div>
-  </div>
-</section>
+  </header>
+</div>
 
 {% schema %}
 {
-  "name": "404"
+  "name": "t:sections.main-404.name"
 }
 {% endschema %}

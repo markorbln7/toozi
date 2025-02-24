@@ -208,32 +208,6 @@
         "recent_count": 5
       }
     },
-    "text_and_image_akXfdN": {
-      "type": "text-and-image",
-      "settings": {
-        "remove_second_image": true,
-        "image": "shopify://shop_images/0e662f18294fe79f3a44871c18d6a217.jpg",
-        "image_mask": "none",
-        "image2_mask": "none",
-        "subtitle": "Soft, breezy",
-        "title": "Lightweight fabric",
-        "text": "<p>Keep cool this summer with our lightweightEgyptian cotton-polyester blend, the softestshirts on the beach.</p>",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "primary",
-        "align_text": "left",
-        "image_width": "50",
-        "layout": "left",
-        "divider": false,
-        "top_padding": true,
-        "bottom_padding": true,
-        "lazyload_images": true
-      }
-    },
-    "collection-return": {
-      "type": "collection-return",
-      "settings": {}
-    },
     "promo_grid_d4QmBD": {
       "type": "promo-grid",
       "blocks": {
@@ -269,6 +243,32 @@
         "space_below": true,
         "lazyload_images": true
       }
+    },
+    "text_and_image_akXfdN": {
+      "type": "text-and-image",
+      "settings": {
+        "remove_second_image": true,
+        "image": "shopify://shop_images/0e662f18294fe79f3a44871c18d6a217.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "Soft, breezy",
+        "title": "Lightweight fabric",
+        "text": "<p>Keep cool this summer with our lightweightEgyptian cotton-polyester blend, the softestshirts on the beach.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "settings": {}
     }
   },
   "order": [
@@ -280,7 +280,7 @@
     "testimonials",
     "recently-viewed",
     "text_and_image_akXfdN",
-    "collection-return",
-    "promo_grid_d4QmBD"
+    "promo_grid_d4QmBD",
+    "collection-return"
   ]
 }

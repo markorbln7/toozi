@@ -17,7 +17,9 @@
   {%- if gift_card_recipient_feature_active -%}
     {%- render 'gift-card-recipient-form', product: product, form: form, section: section -%}
   {%- endif -%}
-
+  {% if product.metafields.custom.set_skus %}
+    <input hidden type="text" id="custom-color" name="properties[Set SKus]" value="{{product.metafields.custom.set_skus}}">
+  {% endif %}
   {%- if enable_dynamic_buttons -%}
     <div class="payment-buttons">
   {%- endif -%}

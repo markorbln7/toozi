@@ -137,7 +137,9 @@
     "text-and-image2": {
       "type": "text-and-image",
       "settings": {
+        "image": "{{ product.metafields.custom.image_second.value }}",
         "image_mask": "none",
+        "image2": "{{ product.metafields.custom.image_third.value }}",
         "image2_mask": "none",
         "subtitle": "",
         "title": "About your brand",

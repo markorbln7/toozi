@@ -45,13 +45,21 @@
             "title": "What is your return policy?",
             "text": "<p>We want you to love your Toozi Sleepwear! If for any reason you are not satisfied with your purchase, we offer a hassle-free return policy. Items can be returned within 15 days of receipt for a full refund, provided they are in their original condition with tags attached. Custom orders are non-refundable. Please refer to our Return Policy page for more details.</p>"
           }
+        },
+        "question_zF4Phe": {
+          "type": "question",
+          "settings": {
+            "title": "How can I stay updated on new arrivals and promotions?",
+            "text": "<p>To stay in the loop about our latest drops, styles, and special promotions, we encourage you to sign up for our newsletter. You'll receive exclusive updates, sneak peeks, and special offers directly in your inbox! You can also follow us on Instagram @toozisleepwear.com. </p>"
+          }
         }
       },
       "block_order": [
         "faq-0",
         "faq-1",
         "faq-2",
-        "question_NBYFXk"
+        "question_NBYFXk",
+        "question_zF4Phe"
       ],
       "settings": {
         "title": ""

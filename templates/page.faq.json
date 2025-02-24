@@ -35,15 +35,23 @@
         "faq-2": {
           "type": "question",
           "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>"
+            "title": "How should I care for my Toozi Sleepwear?",
+            "text": "<p>To maintain the quality and softness of your Toozi Sleepwear, we recommend washing your garments in cold water with like colors and tumble drying on low heat. Avoid using bleach or fabric softeners, as they can damage the fabric. For best results, hang to dry.</p>"
+          }
+        },
+        "question_NBYFXk": {
+          "type": "question",
+          "settings": {
+            "title": "What is your return policy?",
+            "text": "<p>We want you to love your Toozi Sleepwear! If for any reason you are not satisfied with your purchase, we offer a hassle-free return policy. Items can be returned within 15 days of receipt for a full refund, provided they are in their original condition with tags attached. Custom orders are non-refundable. Please refer to our Return Policy page for more details.</p>"
           }
         }
       },
       "block_order": [
         "faq-0",
         "faq-1",
-        "faq-2"
+        "faq-2",
+        "question_NBYFXk"
       ],
       "settings": {
         "title": ""

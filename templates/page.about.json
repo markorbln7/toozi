@@ -145,22 +145,30 @@
         "divider": false
       }
     },
-    "pro_faq_nq7KAK": {
-      "type": "pro-faq",
+    "faq_6AxrnD": {
+      "type": "faq",
       "blocks": {
-        "item_bEmBRj": {
-          "type": "item",
+        "question_h9mqXr": {
+          "type": "question",
           "settings": {
-            "question": "Add a question",
-            "answer": "ahviep"
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>"
+          }
+        },
+        "question_HRrBkw": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>"
           }
         }
       },
       "block_order": [
-        "item_bEmBRj"
+        "question_h9mqXr",
+        "question_HRrBkw"
       ],
       "settings": {
-        "heading": ""
+        "title": "FAQs"
       }
     },
     "form": {
@@ -183,8 +191,8 @@
     "rich-text",
     "slideshow_CVE6Xp",
     "text-columns",
+    "faq_6AxrnD",
     "featured-collection",
-    "pro_faq_nq7KAK",
     "form"
   ]
 }

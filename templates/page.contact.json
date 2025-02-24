@@ -20,7 +20,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "title": "Get in Touch with Toozi Sleepwear"
+            "title": "Contact"
           }
         },
         "text": {
@@ -80,7 +80,7 @@
     "form": {
       "type": "contact-form",
       "settings": {
-        "title": "Questions? Send us an email",
+        "title": "Get in Touch with Toozi Sleepwear",
         "text": "",
         "show_phone": false,
         "narrow_column": true

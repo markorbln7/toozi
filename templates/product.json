@@ -112,11 +112,12 @@
     "background-image-text": {
       "type": "background-image-text",
       "settings": {
-        "subtitle": "Impressive",
-        "title": "About your brand",
-        "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.</p>",
+        "subtitle": "WOMAN-OWNED",
+        "title": "Made In California",
+        "text": "<p>Handmade sleepwear crafted with premium, eco-friendly materials for lasting comfort. Woman-owned and committed to quality, sustainability, and empowering women—one beautifully made piece at a time.</p>",
         "button_label": "",
         "button_link": "",
+        "image": "{{ product.metafields.custom.image_first.value }}",
         "layout": "left",
         "height": 550,
         "framed": false,

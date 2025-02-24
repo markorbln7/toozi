@@ -149,11 +149,19 @@
             "title": "How is Toozi Sleepwear crafted, and what are the key benefits of your fabrics?",
             "text": "<p>At Toozi, our sleepwear is crafted with love and care, reflecting the personal touch that defines our brand. I have had the privilege of visiting our talented team at StyleWorks, where our pieces are handmade. We are all directly involved in every step of the production process, from design to finishing touches, adding an intimate and thoughtful element to our creations.</p><p>We prioritize premium-quality fabrics that not only look luxurious but also enhance your comfort. One standout fabric is bamboo, known for its incredible softness, moisture-wicking properties, and natural hypoallergenic qualities. Choosing bamboo means you can sleep peacefully, knowing you're wrapped in both comfort and sustainability, making it the perfect choice for your nighttime routine.</p>"
           }
+        },
+        "question_VzCJN8": {
+          "type": "question",
+          "settings": {
+            "title": "How does Toozi Sleepwear prioritize eco-friendly practices and ensure accessibility for all body types?",
+            "text": "<p>We prioritize eco-friendly practices throughout our production process, from sourcing sustainable materials to working with manufacturers who share our commitment to minimizing waste. By investing in environmentally responsible fabrics, we aim to create a positive impact on our planet while delivering beautiful and beneficial sleepwear to our customers.<br/><br/>We believe that every woman deserves to feel beautiful, which is why we offer a diverse range of sizes to ensure that our sleepwear is accessible and inclusive for all body types. Our sizing chart is available on each product page, and we're continually working to expand our offerings to meet the needs of our customers.</p>"
+          }
         }
       },
       "block_order": [
         "question_h9mqXr",
-        "question_HRrBkw"
+        "question_HRrBkw",
+        "question_VzCJN8"
       ],
       "settings": {
         "title": "MEET OUR FOUNDER"

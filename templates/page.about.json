@@ -177,6 +177,13 @@
             "title": "What features will be available for loyal customers, and why should they choose Toozi Sleepwear?",
             "text": "<p>We value our community, which is why we're introducing a loyalty program where members can sign up to save their preferences and account details for a more personalized shopping experience. Eventually, we will also offer tailoring options for your sleepwear, ensuring a perfect fit that feels just right.</p>"
           }
+        },
+        "question_J3Dia3": {
+          "type": "question",
+          "settings": {
+            "title": "How can Toozi enhance your lifestyle?",
+            "text": "<p>At Toozi, we emphasize self-care and relaxation through our sleepwear, encouraging you to prioritize your well-being and create a personal oasis at home. Choosing Toozi means embracing comfort without sacrificing style, enhancing your nighttime routine and making every moment special. Our commitment to sustainability and premium craftsmanship allows you to feel good about supporting a woman-owned small business that values community and self-care. </p><p>We invite you to explore our collection and experience the love woven into every piece of Toozi Sleepwear. Thank you for being part of our journey-your feedback and experiences are always welcome. You deserve to Sleep Beautifully!<br/></p>"
+          }
         }
       },
       "block_order": [
@@ -185,7 +192,8 @@
         "question_VzCJN8",
         "question_FUXcpP",
         "question_hieGKe",
-        "question_XYiDA8"
+        "question_XYiDA8",
+        "question_J3Dia3"
       ],
       "settings": {
         "title": "MEET OUR FOUNDER"

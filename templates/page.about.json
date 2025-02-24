@@ -163,13 +163,21 @@
             "title": "What makes Toozi Sleepwear special, and how does your background influence the brand's vision?",
             "text": "<p>Toozi is more than just a sleepwear brand; it's a celebration of modern chic aesthetics paired with unparalleled comfort. Our designs are minimalistic yet stylish, allowing you to feel confident and cozy in your own skin. The intimate nature of our small business means we connect with our customers on a personal level, creating a unique shopping experience.</p><p>My extensive experience in the media industry helps shape the vision for Toozi. Drawing from my years of highlighting fashion, beauty, and lifestyle, I understand what women want in their sleepwear-style that feels good and fits seamlessly into their lives. This expertise allows us to stay ahead of trends, ensuring our collections resonate with modern women. My passion for health and wellness further drives our commitment to creating sleepwear that enhances your lifestyle.</p>"
           }
+        },
+        "question_hieGKe": {
+          "type": "question",
+          "settings": {
+            "title": "What can shoppers expect in the future from Toozi Sleepwear?",
+            "text": "<p>Exciting things are on the horizon for Toozi! As a bridal editor and a newlywed, I've seen firsthand the need for a beautiful and customizable bridal collection, and I'm thrilled to share that we will soon be launching our Bridal Capsule Collection. The bridal collection will be a part of our Silky Series, both of which will include stunning styles like robes, chemises, and sleep sets, all crafted from our signature silky fabric.</p><p>Each piece in the Silky Series will feature customizable embroidery options, allowing you to add a personal touch that makes it uniquely yours. This makes our silky series perfect for gifting, whether for brides, bridal parties, couples, holidays, or anyone looking to indulge in a little luxury.</p>"
+          }
         }
       },
       "block_order": [
         "question_h9mqXr",
         "question_HRrBkw",
         "question_VzCJN8",
-        "question_FUXcpP"
+        "question_FUXcpP",
+        "question_hieGKe"
       ],
       "settings": {
         "title": "MEET OUR FOUNDER"

@@ -210,18 +210,6 @@
     "collection-return": {
       "type": "collection-return",
       "settings": {}
-    },
-    "image_with_text_9wAicQ": {
-      "type": "image-with-text",
-      "settings": {
-        "image": "{{ product.metafields.custom.image_fifth.value }}",
-        "image_position": "left",
-        "image_width": 50,
-        "title": "Your title",
-        "content": "<p>Use this text to share information about your brand with your customers.<br/>Describe a product, share announcements, or welcome customers to your store.</p>",
-        "button_text": "Our products",
-        "button_link": "shopify://collections/all"
-      }
     }
   },
   "order": [
@@ -232,7 +220,6 @@
     "text-and-image2",
     "testimonials",
     "recently-viewed",
-    "collection-return",
-    "image_with_text_9wAicQ"
+    "collection-return"
   ]
 }

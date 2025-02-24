@@ -11,6 +11,9 @@
     assign overlap_images = true
     assign placeholder_images = true
   endif
+  if section.settings.remove_second_image
+    assign overlap_images = false
+  endif
 -%}
 
 {% style %}
@@ -59,7 +62,7 @@
               {%- if section.settings.button_label != blank and section.settings.button_link != blank -%}</a>{%- endif -%}
             </div>
           {%- endif -%}
-          {%- if section.settings.image2 != blank -%}
+          {%- if section.settings.image2 != blank and section.settings.remove_second_image != true -%}
             <div class="feature-row__second-image">
               {%- if section.settings.button_label != blank and section.settings.button_link != blank -%}<a href="{{ section.settings.button_link }}">{%- endif -%}
                 <div class="image-wrap {% if section.settings.image2_mask != 'none' %}svg-mask svg-mask--{{ section.settings.image2_mask }}{% endif %}" style="height: 0; padding-bottom: {{ 100 | divided_by: section.settings.image2.aspect_ratio }}%;">
@@ -139,6 +142,12 @@
     {
       "type": "header",
       "content": "t:sections.text-and-image.settings.image.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "remove_second_image",
+      "label": "Remove Second Image",
+      "default":false
     },
     {
       "type": "image_picker",
@@ -397,7 +406,7 @@
   ],
   "presets": [
     {
-      "name": "t:sections.text-and-image.presets.image_with_text.name"
+      "name": "WKND IMAGE TEXT"
     }
   ],
   "disabled_on": {

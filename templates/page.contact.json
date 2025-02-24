@@ -1,1 +1,96 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{}},"rich-text":{"type":"rich-text","blocks":{"heading":{"type":"heading","settings":{"title":"Contact"}},"text":{"type":"text","settings":{"enlarge_text":true,"text":"<p>Questions? Comments? Let your customers get in touch with you by filling out the email form below. Reassure them that someone will get back to them within a certain timeframe.<\/p>"}}},"block_order":["heading","text"],"settings":{"align_text":"center","narrow_column":true,"divider":false}},"promo_grid_FcqXjT":{"type":"promo-grid","blocks":{"advanced_pwrgnz":{"type":"advanced","settings":{"subheading":"","heading":"","textarea":"","cta_text1":"","cta_link1":"","cta_text2":"","cta_link2":"","image":"shopify:\/\/shop_images\/Rectangle_36.png","video_url":"","width":"50","height":500,"text_size":100,"text_align":"vertical-center horizontal-center","color_accent":"rgba(0,0,0,0)","boxed":false,"framed":false}}},"block_order":["advanced_pwrgnz"],"settings":{"full_width":true,"gutter_size":20,"space_above":false,"space_below":false,"lazyload_images":true}},"form":{"type":"contact-form","settings":{"title":"Questions? Send us an email","text":"","show_phone":false,"narrow_column":true}}},"order":["main","rich-text","promo_grid_FcqXjT","form"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "Get in Touch with Toozi Sleepwear"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>At Toozi Sleepwear, we value your questions, feedback, and inquiries! Whether you need assistance with sizing, have questions about our sustainable practices, or simply want to share your sleepwear experience, we're here to help. Our dedicated team is committed to providing you with exceptional customer service and ensuring your complete satisfaction. Don't hesitate to reach out-let's connect and make your sleepwear experience as delightful as possible!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "promo_grid_FcqXjT": {
+      "type": "promo-grid",
+      "blocks": {
+        "advanced_pwrgnz": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify://shop_images/Rectangle_36.png",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "advanced_pwrgnz"
+      ],
+      "settings": {
+        "full_width": true,
+        "gutter_size": 20,
+        "space_above": false,
+        "space_below": false,
+        "lazyload_images": true
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "title": "Questions? Send us an email",
+        "text": "",
+        "show_phone": false,
+        "narrow_column": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich-text",
+    "promo_grid_FcqXjT",
+    "form"
+  ]
+}

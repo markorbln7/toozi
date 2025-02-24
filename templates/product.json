@@ -214,6 +214,7 @@
     "image_with_text_9wAicQ": {
       "type": "image-with-text",
       "settings": {
+        "image": "{{ product.metafields.custom.image_fifth.value }}",
         "image_position": "left",
         "image_width": 50,
         "title": "Your title",

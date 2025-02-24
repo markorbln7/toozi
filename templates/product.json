@@ -193,7 +193,7 @@
         "testimonials-2"
       ],
       "settings": {
-        "title": "Benefitsof Toozi Sleepwear",
+        "title": "Benefits of Toozi Sleepwear",
         "align_text": "center",
         "round_images": true,
         "color_background": "#f9f9f9",
@@ -202,6 +202,7 @@
     },
     "recently-viewed": {
       "type": "recently-viewed",
+      "disabled": true,
       "settings": {
         "recent_count": 5
       }

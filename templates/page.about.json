@@ -52,6 +52,12 @@
     "rich-text": {
       "type": "rich-text",
       "blocks": {
+        "heading_V4UhEi": {
+          "type": "heading",
+          "settings": {
+            "title": "WHO WE ARE?"
+          }
+        },
         "text": {
           "type": "text",
           "settings": {
@@ -61,6 +67,7 @@
         }
       },
       "block_order": [
+        "heading_V4UhEi",
         "text"
       ],
       "settings": {

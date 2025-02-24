@@ -60,16 +60,17 @@
         "tab": {
           "type": "tab",
           "settings": {
-            "title": "Shipping information",
-            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.</p><p>Ex: Shipping and return policies, size guides, and other common questions.</p>",
+            "title": "Fabric Care",
+            "content": "<p>To maintain the quality and softness of your Toozi Sleepwear, we recommend washing your garments in cold water with like colors and tumble drying on low heat. Avoid using bleach or fabric softeners, as they can damage the fabric. For best results, hang to dry.</p>",
             "page": ""
           }
         },
-        "contact": {
-          "type": "contact",
+        "tab_Y9cpTK": {
+          "type": "tab",
           "settings": {
-            "title": "Ask a question",
-            "phone": false
+            "title": "FIT NOTES",
+            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.</p><p>Ex: Shipping and return policies, size guides, and other common questions.</p>",
+            "page": ""
           }
         },
         "share": {
@@ -86,7 +87,7 @@
         "buy_buttons",
         "description",
         "tab",
-        "contact",
+        "tab_Y9cpTK",
         "share"
       ],
       "settings": {
@@ -230,42 +231,6 @@
         "lazyload_images": true
       }
     },
-    "promo_grid_d4QmBD": {
-      "type": "promo-grid",
-      "blocks": {
-        "advanced_4nek6z": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "",
-            "heading": "mega summer sale",
-            "textarea": "30% off of all summer dresses",
-            "cta_text1": "Shop NOW",
-            "cta_link1": "shopify://collections/bamboo",
-            "cta_text2": "",
-            "cta_link2": "",
-            "image": "shopify://shop_images/womens-silky-chemiseblackTZ-001A-8329-1-S-1.jpg",
-            "video_url": "",
-            "width": "100",
-            "height": 500,
-            "text_size": 120,
-            "text_align": "vertical-center horizontal-center",
-            "color_accent": "#f6d4d4",
-            "boxed": false,
-            "framed": false
-          }
-        }
-      },
-      "block_order": [
-        "advanced_4nek6z"
-      ],
-      "settings": {
-        "full_width": false,
-        "gutter_size": 20,
-        "space_above": true,
-        "space_below": true,
-        "lazyload_images": true
-      }
-    },
     "collection-return": {
       "type": "collection-return",
       "custom_css": [
@@ -283,7 +248,6 @@
     "testimonials",
     "recently-viewed",
     "text_and_image_akXfdN",
-    "promo_grid_d4QmBD",
     "collection-return"
   ]
 }

@@ -1,1 +1,190 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{}},"slideshow":{"type":"slideshow","blocks":{"image_iMFaBC":{"type":"image","settings":{"top_subheading":"","title":"Founded with\na mission.","title_size":80,"subheading":"Featuring the latest textile technologies, independently tested.","link":"","link_text":"","link_2":"","link_text_2":"","color_accent":"rgba(0,0,0,0)","text_align":"vertical-center horizontal-center","image":"shopify:\/\/shop_images\/EnriqueOlivieriPhotography4_2_1.png","parallax_direction":"top","overlay_opacity":0}}},"block_order":["image_iMFaBC"],"settings":{"section_height":"100vh","mobile_height":"auto","parallax":false,"style":"bars","autoplay":false,"autoplay_speed":7,"lazyload_images":false}},"rich-text":{"type":"rich-text","blocks":{"text":{"type":"text","settings":{"enlarge_text":true,"text":"<p>Founded in 1984 by designer Chantelle West, we've always believed in the power of locally made goods. The quality of the craftsmanship and the local artisans we employ are what make Luxette our mission in life.<\/p>"}}},"block_order":["text"],"settings":{"align_text":"center","narrow_column":true,"divider":false}},"slideshow_CVE6Xp":{"type":"slideshow","blocks":{"image_QnteFc":{"type":"image","settings":{"top_subheading":"","title":"","title_size":80,"subheading":"","link":"","link_text":"","link_2":"","link_text_2":"","color_accent":"rgba(0,0,0,0)","text_align":"vertical-center horizontal-center","image":"shopify:\/\/shop_images\/Screenshot_2025-02-11_at_17.54.25.png","parallax_direction":"top","overlay_opacity":0}}},"block_order":["image_QnteFc"],"settings":{"section_height":"650px","mobile_height":"auto","parallax":false,"style":"bars","autoplay":false,"autoplay_speed":5,"lazyload_images":false}},"text-columns":{"type":"text-columns","blocks":{"column1":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/Rectangle_53.png","image_mask":"none","image_width":650,"title":"jennifer maclellan","text":"<p>CEO & Founder<br\/>@jennifermaclellan<\/p>","button_label":"","button_link":""}}},"block_order":["column1"],"custom_css":[".grid--flush-bottom {justify-content: center; display: flex;}"],"settings":{"title":"Meet our founder","align_text":"center","divider":false}},"featured-collection":{"type":"featured-collection","settings":{"title":"Shop our products","home_featured_products":"womens","per_row":4,"rows":1,"mobile_scrollable":true,"view_all":false,"divider":false}},"form":{"type":"contact-form","custom_css":[".index-section {color: #b19f98;}",".form-vertical .btn:not(:last-child) {background: #b19f98;}"],"settings":{"title":"Questions? Send us an email","text":"","show_phone":false,"narrow_column":true}}},"order":["main","slideshow","rich-text","slideshow_CVE6Xp","text-columns","featured-collection","form"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "image_iMFaBC": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Founded with\na mission.",
+            "title_size": 80,
+            "subheading": "Featuring the latest textile technologies, independently tested.",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/EnriqueOlivieriPhotography4_2_1.png",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_iMFaBC"
+      ],
+      "settings": {
+        "section_height": "100vh",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": false,
+        "autoplay_speed": 7,
+        "lazyload_images": false
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Founded in 1984 by designer Chantelle West, we've always believed in the power of locally made goods. The quality of the craftsmanship and the local artisans we employ are what make Luxette our mission in life.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "slideshow_CVE6Xp": {
+      "type": "slideshow",
+      "blocks": {
+        "image_QnteFc": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/Screenshot_2025-02-11_at_17.54.25.png",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_QnteFc"
+      ],
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "lazyload_images": false
+      }
+    },
+    "text-columns": {
+      "type": "text-columns",
+      "blocks": {
+        "column1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Rectangle_53.png",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "jennifer maclellan",
+            "text": "<p>CEO & Founder<br/>@jennifermaclellan</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column1"
+      ],
+      "custom_css": [
+        ".grid--flush-bottom {justify-content: center; display: flex;}"
+      ],
+      "settings": {
+        "title": "Meet our founder",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Shop our products",
+        "home_featured_products": "womens",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
+      }
+    },
+    "pro_faq_nq7KAK": {
+      "type": "pro-faq",
+      "blocks": {
+        "item_bEmBRj": {
+          "type": "item",
+          "settings": {
+            "question": "Add a question",
+            "answer": "ahviep"
+          }
+        }
+      },
+      "block_order": [
+        "item_bEmBRj"
+      ],
+      "settings": {
+        "heading": ""
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "custom_css": [
+        ".index-section {color: #b19f98;}",
+        ".form-vertical .btn:not(:last-child) {background: #b19f98;}"
+      ],
+      "settings": {
+        "title": "Questions? Send us an email",
+        "text": "",
+        "show_phone": false,
+        "narrow_column": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow",
+    "rich-text",
+    "slideshow_CVE6Xp",
+    "text-columns",
+    "featured-collection",
+    "pro_faq_nq7KAK",
+    "form"
+  ]
+}

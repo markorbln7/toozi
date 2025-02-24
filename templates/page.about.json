@@ -156,12 +156,20 @@
             "title": "How does Toozi Sleepwear prioritize eco-friendly practices and ensure accessibility for all body types?",
             "text": "<p>We prioritize eco-friendly practices throughout our production process, from sourcing sustainable materials to working with manufacturers who share our commitment to minimizing waste. By investing in environmentally responsible fabrics, we aim to create a positive impact on our planet while delivering beautiful and beneficial sleepwear to our customers.<br/><br/>We believe that every woman deserves to feel beautiful, which is why we offer a diverse range of sizes to ensure that our sleepwear is accessible and inclusive for all body types. Our sizing chart is available on each product page, and we're continually working to expand our offerings to meet the needs of our customers.</p>"
           }
+        },
+        "question_FUXcpP": {
+          "type": "question",
+          "settings": {
+            "title": "What makes Toozi Sleepwear special, and how does your background influence the brand's vision?",
+            "text": "<p>Toozi is more than just a sleepwear brand; it's a celebration of modern chic aesthetics paired with unparalleled comfort. Our designs are minimalistic yet stylish, allowing you to feel confident and cozy in your own skin. The intimate nature of our small business means we connect with our customers on a personal level, creating a unique shopping experience.</p><p>My extensive experience in the media industry helps shape the vision for Toozi. Drawing from my years of highlighting fashion, beauty, and lifestyle, I understand what women want in their sleepwear-style that feels good and fits seamlessly into their lives. This expertise allows us to stay ahead of trends, ensuring our collections resonate with modern women. My passion for health and wellness further drives our commitment to creating sleepwear that enhances your lifestyle.</p>"
+          }
         }
       },
       "block_order": [
         "question_h9mqXr",
         "question_HRrBkw",
-        "question_VzCJN8"
+        "question_VzCJN8",
+        "question_FUXcpP"
       ],
       "settings": {
         "title": "MEET OUR FOUNDER"

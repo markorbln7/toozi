@@ -52,6 +52,13 @@
             "title": "How can I stay updated on new arrivals and promotions?",
             "text": "<p>To stay in the loop about our latest drops, styles, and special promotions, we encourage you to sign up for our newsletter. You'll receive exclusive updates, sneak peeks, and special offers directly in your inbox! You can also follow us on Instagram @toozisleepwear.com. </p>"
           }
+        },
+        "question_hfjAVK": {
+          "type": "question",
+          "settings": {
+            "title": "How can I contact customer support?",
+            "text": "<p>We're here to help! If you have any questions or need assistance, please reach out to our customer support team via our Contact Us page. You can also connect with us through our social media channels for quick inquiries.<br/></p>"
+          }
         }
       },
       "block_order": [
@@ -59,7 +66,8 @@
         "faq-1",
         "faq-2",
         "question_NBYFXk",
-        "question_zF4Phe"
+        "question_zF4Phe",
+        "question_hfjAVK"
       ],
       "settings": {
         "title": ""

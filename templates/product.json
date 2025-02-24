@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
+{
   "sections": {
     "main": {
       "type": "main-product",
@@ -137,6 +137,7 @@
     "text-and-image2": {
       "type": "text-and-image",
       "settings": {
+        "remove_second_image": false,
         "image": "{{ product.metafields.custom.image_second.value }}",
         "image_mask": "none",
         "image2": "{{ product.metafields.custom.image_third.value }}",
@@ -210,6 +211,28 @@
     "collection-return": {
       "type": "collection-return",
       "settings": {}
+    },
+    "text_and_image_akXfdN": {
+      "type": "text-and-image",
+      "settings": {
+        "remove_second_image": true,
+        "image": "{{ product.metafields.custom.image_sixth.value }}",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Image with text",
+        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
     }
   },
   "order": [
@@ -220,6 +243,7 @@
     "text-and-image2",
     "testimonials",
     "recently-viewed",
-    "collection-return"
+    "collection-return",
+    "text_and_image_akXfdN"
   ]
 }

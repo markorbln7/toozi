@@ -30,7 +30,7 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/EnriqueOlivieriPhotography4_2_1.png",
+            "image": "shopify://shop_images/DSC7406-Edit.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -62,7 +62,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Welcome to Toozi Sleepwear, where comfort meets style in the most delightful way. We are a lifestyle brand dedicated to celebrating the everyday woman-those who embrace life's simple pleasures and value quality in every moment. <br/><br/>At Toozi, we believe that every day is an opportunity to indulge in restful sleep and look good while doing it. Our mission is to provide eco-friendly sleepwear that effortlessly combines luxurious comfort with chic design. Crafted from soft, breathable bamboo fabrics, our pieces are designed to wrap you in a gentle embrace, inviting you to relax and recharge.<br/>We understand that true beauty lies in the little moments-whether it's savoring your morning coffee in the sunlight or enjoying cozy evenings at home. That's why we've made it our goal to inspire you to live beautifully, one night at a time. Our sleepwear is not just clothing; it's an invitation to take a step back, breathe deeply, and appreciate the art of living.<br/><br/>At Toozi, we are also committed to sustainability. We believe in making choices that are kind to our planet, ensuring that our products support a healthier environment for future generations. When you slip into Toozi, you're not just choosing comfort; you're making a conscious decision to embrace eco-friendly fashion.<br/><br/>Slip into Toozi Sleepwear and discover a world where you can truly sleep beautifully. You deserve it.</p>"
+            "text": "<p>Welcome to Toozi Sleepwear, where comfort meets style in the most delightful way. We are a lifestyle brand dedicated to celebrating the everyday woman-those who embrace life's simple pleasures and value quality in every moment. <br/><br/>At Toozi, we believe that every day is an opportunity to indulge in restful sleep and look good while doing it. Our mission is to provide eco-friendly sleepwear that effortlessly combines luxurious comfort with chic design. Crafted from soft, breathable bamboo fabrics, our pieces are designed to wrap you in a gentle embrace, inviting you to relax and recharge.</p><p><br/>We understand that true beauty lies in the little moments-whether it's savoring your morning coffee in the sunlight or enjoying cozy evenings at home. That's why we've made it our goal to inspire you to live beautifully, one night at a time. Our sleepwear is not just clothing; it's an invitation to take a step back, breathe deeply, and appreciate the art of living.<br/><br/>We are also committed to sustainability. We believe in making choices that are kind to our planet, ensuring that our products support a healthier environment for future generations. When you slip into Toozi, you're not just choosing comfort; you're making a conscious decision to embrace eco-friendly fashion.<br/><br/>Slip into Toozi Sleepwear and discover a world where you can truly sleep beautifully. You deserve it.</p>"
           }
         }
       },
@@ -92,7 +92,7 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/Screenshot_2025-02-11_at_17.54.25.png",
+            "image": "shopify://shop_images/0e662f18294fe79f3a44871c18d6a217.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -118,11 +118,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/Rectangle_53.png",
+            "image": "shopify://shop_images/JenniferHeadshotIMG_1841_2.jpg",
             "image_mask": "none",
             "image_width": 650,
             "title": "jennifer maclellan",
-            "text": "<p>CEO & Founder<br/>@jennifermaclellan</p>",
+            "text": "<p>@jennifer_maclellan</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -135,7 +135,7 @@
         ".grid--flush-bottom {justify-content: center; display: flex;}"
       ],
       "settings": {
-        "title": "Meet our founder",
+        "title": "Meet our CEO",
         "align_text": "center",
         "divider": false
       }
@@ -203,7 +203,7 @@
         "question_J3Dia3"
       ],
       "settings": {
-        "title": "MEET OUR FOUNDER"
+        "title": "MEET OUR CEO"
       }
     },
     "featured-collection": {

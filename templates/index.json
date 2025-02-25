@@ -289,7 +289,7 @@
         "featured-collections-2": {
           "type": "collection",
           "settings": {
-            "collection": "bamboo",
+            "collection": "sets",
             "title": "",
             "focal_point": "center center"
           }
@@ -297,7 +297,7 @@
         "featured-collections-3": {
           "type": "collection",
           "settings": {
-            "collection": "ribbed",
+            "collection": "accessories",
             "title": "",
             "focal_point": "center center"
           }

@@ -91,7 +91,7 @@
           "settings": {
             "show_footer_title": true,
             "title": "Sign up and save",
-            "text": "<p>Be the first to know about our biggest and best sales. We'll never send more than one email a month.</p>",
+            "text": "<h5>Subscribe & receive 10% off your first order</h5>",
             "container_width": 25
           }
         },

@@ -109,7 +109,7 @@
             "cta_link1": "",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify://shop_images/b92b668e3d0eda02c7deef53f8bda4b2.jpg",
+            "image": "shopify://shop_images/sleep-maskPinkTZ-999-EYEMASK-PK_1.jpg",
             "video_url": "",
             "width": "50",
             "height": 500,
@@ -130,7 +130,7 @@
             "cta_link1": "",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify://shop_images/a143780e6c3e755d38f8a383c2f41fa7.jpg",
+            "image": "shopify://shop_images/womens-ribbed-bamboo-pajama-pantspinkTZ-006-6351-22-XS.jpg",
             "video_url": "",
             "width": "50",
             "height": 500,
@@ -180,14 +180,14 @@
         "promo2-0": {
           "type": "advanced",
           "settings": {
-            "subheading": "Limited time",
-            "heading": "Valentines day promotion",
+            "subheading": "Coming soon",
+            "heading": "BRIDAL CAPSULE COLLECTION",
             "textarea": "",
-            "cta_text1": "Check our offer",
+            "cta_text1": "SAY \"I DO\"",
             "cta_link1": "shopify://collections/all",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify://shop_images/Background_1.png",
+            "image": "shopify://shop_images/womens-silky-robe-white-TZ-008-8329-2-S-1_a15acb6d-ceed-4ed2-ad0a-8284a4109cbe.jpg",
             "video_url": "",
             "width": "100",
             "height": 720,
@@ -246,7 +246,7 @@
         "product_4VHmhi": {
           "type": "product",
           "settings": {
-            "featured_product": "womens-silky-robe",
+            "featured_product": "womens-cami-pant-set",
             "vertical": 25,
             "horizontal": 25
           }
@@ -259,7 +259,7 @@
         "title": "Shop the look",
         "heading_size": "h2",
         "heading_position": "left",
-        "image": "shopify://shop_images/Background_2.png",
+        "image": "shopify://shop_images/bamboo-socksSeamlessComfortBambooSocksBrownTZ-100-BB-BR-OSFA.jpg",
         "indent_image": false,
         "image_position": "left",
         "hotspot_style": "bag",

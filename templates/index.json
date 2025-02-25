@@ -273,7 +273,7 @@
         "featured-collections-0": {
           "type": "collection",
           "settings": {
-            "collection": "accessories",
+            "collection": "womens",
             "title": "",
             "focal_point": "center center"
           }
@@ -281,7 +281,7 @@
         "featured-collections-1": {
           "type": "collection",
           "settings": {
-            "collection": "womens",
+            "collection": "mens",
             "title": "",
             "focal_point": "center center"
           }
@@ -289,7 +289,7 @@
         "featured-collections-2": {
           "type": "collection",
           "settings": {
-            "collection": "mens",
+            "collection": "bamboo",
             "title": "",
             "focal_point": "center center"
           }
@@ -297,7 +297,7 @@
         "featured-collections-3": {
           "type": "collection",
           "settings": {
-            "collection": "silky",
+            "collection": "ribbed",
             "title": "",
             "focal_point": "center center"
           }

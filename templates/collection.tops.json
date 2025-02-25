@@ -11,6 +11,7 @@
   "sections": {
     "collection-header": {
       "type": "collection-header",
+      "disabled": true,
       "settings": {
         "enable": true,
         "collection_image_enable": true,
@@ -60,12 +61,40 @@
         "advanced",
         "banner"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "gutter_size": 20,
         "space_above": true,
         "space_below": false,
         "lazyload_images": true
+      }
+    },
+    "rich_text_QbkncA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jfUtqJ": {
+          "type": "heading",
+          "settings": {
+            "title": "Shop our Tops"
+          }
+        },
+        "text_QTRLc9": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_jfUtqJ",
+        "text_QTRLc9"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
       }
     },
     "main-collection": {
@@ -109,6 +138,7 @@
   "order": [
     "collection-header",
     "promo-grid",
+    "rich_text_QbkncA",
     "main-collection"
   ]
 }

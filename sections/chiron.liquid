@@ -1,0 +1,106 @@
+<div class="chiron-wrapper">
+    <div class="chiron-content">
+        {% for block in section.blocks %}
+            <div class="chiron-item">
+                <img src="{{ block.settings.image | img_url: '150x' }}" alt="{{ block.settings.text }}">
+                <p class="chiron-title">{{ block.settings.title }}</p>
+            </div>
+        {% endfor %}
+        {% for block in section.blocks %}
+            <div class="chiron-item">
+                <img src="{{ block.settings.image | img_url: '150x' }}" alt="{{ block.settings.text }}">
+                <p class="chiron-title">{{ block.settings.title }}</p>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+
+<style>
+    .chiron-wrapper {
+      width: 100%; /* Show 2 items at a time */
+      overflow: hidden;
+      white-space: nowrap;
+    }
+
+    .chiron-content {
+      display: inline-flex;
+      animation: scroll-chiron 20s linear infinite;
+      gap:20px;
+    }
+
+    .chiron-item {
+      flex: 0 0 10%; /* Make each item 25% of the wrapper's width */
+      white-space: nowrap; /* Prevent text wrapping */
+      overflow: hidden; /* Hide text overflow */
+      text-overflow: ellipsis; /* Show "..." if text overflows */
+      box-sizing: border-box; /* Include padding and borders in width */
+    }
+
+    .chiron-item img {
+        margin:0 auto;
+    }
+    .chiron-title {
+        text-align: center;
+        margin-top: 10px;
+    }
+    @media (max-width: 600px) {
+      .chiron-item {
+        flex: 0 0 7%; /* Show 1 item at a time on small screens */
+      }
+      .chiron-content {
+        display: inline-flex;
+        animation: scroll-chiron 30s linear infinite;
+        gap:10px;
+      }
+    }
+
+    @keyframes scroll-chiron {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+
+    /* Add this to pause animation on hover */
+    .chiron-wrapper:hover .chiron-content {
+      animation-play-state: paused; /* Pause the scrolling when hovering */
+    }
+
+    </style>
+{% schema %}
+{
+  "name": "Chiron",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "chiron",
+      "name": "Chiron",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image Picker"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Image Title"
+        },
+        {
+            "type": "text",
+            "id": "text",
+            "label": "Image Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Chiron",
+      "category": "Product page"
+    }
+  ]
+}
+{% endschema %}

@@ -46,7 +46,9 @@
               {%- elsif block.settings.icon == '1-star' -%}
                 <span class="testimonial-stars">★</span>
               {%- endif -%}
-
+              {%- if block.settings.author != blank -%}
+                <cite>{{ block.settings.author | escape }}</cite>
+              {%- endif -%}
               {%- if block.settings.testimonial != blank -%}
                 <div class="rte-setting text-spacing">{{ block.settings.testimonial }}</div>
               {%- endif -%}
@@ -77,9 +79,7 @@
                 </div>
               {%- endif -%}
 
-              {%- if block.settings.author != blank -%}
-                <cite>{{ block.settings.author | escape }}</cite>
-              {%- endif -%}
+
               {%- if block.settings.author_info != blank -%}
                 <div class="testimonials__info">{{ block.settings.author_info | escape }}</div>
               {%- endif -%}

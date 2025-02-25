@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-{
+ {
   "sections": {
     "main": {
       "type": "main-product",
@@ -158,41 +158,207 @@
         "lazyload_images": true
       }
     },
+    "rich_text_mLix4k": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TwipLF": {
+          "type": "heading",
+          "settings": {
+            "title": "Benefits of Bamboo Fabric in Toozi Sleepwear"
+          }
+        },
+        "text_XgnTxj": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Joinus in celebrating the beauty of everyday moments. Slip into Toozi Sleepwear and discover a world where you can truly sleep beautifully. You deserve it.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TwipLF",
+        "text_XgnTxj"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "chiron_3cY9xJ": {
+      "type": "chiron",
+      "blocks": {
+        "chiron_hXzUwT": {
+          "type": "chiron",
+          "settings": {
+            "image": "shopify://shop_images/membrane.png",
+            "title": "Breathability",
+            "text": "Bamboofabric is naturally breathable, allowing air to circulate and keeping youcomfortable throughout the night."
+          }
+        },
+        "chiron_zGtMEd": {
+          "type": "chiron",
+          "settings": {
+            "image": "shopify://shop_images/cooling.png",
+            "title": "Cooling Properties",
+            "text": "Idealfor warm sleepers, bamboo fibers wick moisture away from the skin, helping toregulate body temperature and keep you cool."
+          }
+        },
+        "chiron_VMedw6": {
+          "type": "chiron",
+          "settings": {
+            "image": "shopify://shop_images/growth.png",
+            "title": "Eco-Conscious Material",
+            "text": "Sourcedfrom sustainable bamboo, our fabrics are biodegradable and produced withminimal environmental impact"
+          }
+        },
+        "chiron_WNp6nB": {
+          "type": "chiron",
+          "settings": {
+            "image": "shopify://shop_images/hypoallergenic.png",
+            "title": "Hypoallergenic",
+            "text": "Bamboois gentle on the skin and naturally hypoallergenic, making it an excellentoption for those with sensitive skin or allergies"
+          }
+        },
+        "chiron_FDcHw3": {
+          "type": "chiron",
+          "settings": {
+            "image": "shopify://shop_images/soft.png",
+            "title": "Softness",
+            "text": "Bamboois gentle on the skin and naturally hypoallergenic, making it an excellentoption for those with sensitive skin or allergies"
+          }
+        },
+        "chiron_tYWR9j": {
+          "type": "chiron",
+          "settings": {
+            "image": "shopify://shop_images/moisture.png",
+            "title": "Moisture-Wicking",
+            "text": "Bamboo'smoisture-wicking properties draw sweat away from the body, keeping you dry andcomfortable throughout the night"
+          }
+        },
+        "chiron_fP4ymx": {
+          "type": "chiron",
+          "settings": {
+            "image": "shopify://shop_images/efficiency.png",
+            "title": "Durability",
+            "text": "Bamboofabric is not only soft but also strong, ensuring your sleepwear maintains itsquality and shape even after multiple washes."
+          }
+        },
+        "chiron_ihkFBK": {
+          "type": "chiron",
+          "settings": {
+            "image": "shopify://shop_images/technology.png",
+            "title": "Antibacterial",
+            "text": "Naturallyresistant to bacteria, bamboo fabric helps reduce odors, keeping your sleepwearfresh and clean for longer"
+          }
+        },
+        "chiron_CMWFNB": {
+          "type": "chiron",
+          "settings": {
+            "image": "shopify://shop_images/recycle.png",
+            "title": "Sustainable",
+            "text": "Bamboogrows rapidly without the need for pesticides or fertilizers, making it one ofthe most sustainable resources for fabric production"
+          }
+        }
+      },
+      "block_order": [
+        "chiron_hXzUwT",
+        "chiron_zGtMEd",
+        "chiron_VMedw6",
+        "chiron_WNp6nB",
+        "chiron_FDcHw3",
+        "chiron_tYWR9j",
+        "chiron_fP4ymx",
+        "chiron_ihkFBK",
+        "chiron_CMWFNB"
+      ],
+      "settings": {}
+    },
     "testimonials": {
       "type": "testimonials",
       "blocks": {
         "testimonials-0": {
           "type": "testimonial",
           "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
-            "author": "Author's name",
-            "author_info": "Los Angeles, CA"
+            "icon": "none",
+            "testimonial": "<p>Our sleepwear combines classic styles with modern sophistication, ensuring you look and feel beautiful, even in your dreams.</p>",
+            "author": "Timeless Elegance",
+            "author_info": ""
           }
         },
         "testimonials-1": {
           "type": "testimonial",
           "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
-            "author": "Author's name",
-            "author_info": "Los Angeles, CA"
+            "icon": "none",
+            "testimonial": "<p>Crafted from the finest, softest materials, Toozi Sleepwear envelops you in warmth and comfort, making every night a delight.</p>",
+            "author": "Luxurious Comfort",
+            "author_info": ""
           }
         },
         "testimonials-2": {
           "type": "testimonial",
           "settings": {
+            "icon": "none",
+            "testimonial": "<p>Our thoughtfully designed pieces promote restful sleep, allowing you to wake up refreshed and rejuvenated.</p>",
+            "author": "Designed for Beautiful Sleep",
+            "author_info": ""
+          }
+        },
+        "testimonial_GTk3MY": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "none",
+            "testimonial": "<p>Made with breathable fabrics that regulate temperature, our sleepwear keeps you cool in the summer and cozy in the winter.</p>",
+            "author": "Breathable Fabrics",
+            "author_info": ""
+          }
+        },
+        "testimonial_f6TrYD": {
+          "type": "testimonial",
+          "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
-            "author": "Author's name",
-            "author_info": "Los Angeles, CA"
+            "testimonial": "<p>From chic nightgowns to stylish pajama sets, our collection offers versatile styles that seamlessly transition from night to loungewear.</p>",
+            "author": "Versatile Styles",
+            "author_info": ""
+          }
+        },
+        "testimonial_WetCFB": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "none",
+            "testimonial": "<p>Toozi Sleepwear is designed for every body, offering a range of sizes that celebrate all shapes and ensure the perfect fit.</p>",
+            "author": "Size Inclusivity",
+            "author_info": ""
+          }
+        },
+        "testimonial_pPXn6W": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "none",
+            "testimonial": "<p>Committed to sustainability, we use eco-friendly materials and ethical manufacturing processes, so you can sleep soundly knowing you're making a responsible choice.</p>",
+            "author": "Sustainable Practices",
+            "author_info": ""
+          }
+        },
+        "testimonial_UzrVD7": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "none",
+            "testimonial": "<p>Toozi Sleepwear makes for an elegant gift, ideal for birthdays, anniversaries, or simply treating yourself or a loved one to a touch of luxury. </p>",
+            "author": "Perfect Gift",
+            "author_info": ""
           }
         }
       },
       "block_order": [
         "testimonials-0",
         "testimonials-1",
-        "testimonials-2"
+        "testimonials-2",
+        "testimonial_GTk3MY",
+        "testimonial_f6TrYD",
+        "testimonial_WetCFB",
+        "testimonial_pPXn6W",
+        "testimonial_UzrVD7"
       ],
       "settings": {
         "title": "Benefits of Toozi Sleepwear",
@@ -281,6 +447,8 @@
     "background-image-text",
     "product-recommendations",
     "text-and-image2",
+    "rich_text_mLix4k",
+    "chiron_3cY9xJ",
     "testimonials",
     "recently-viewed",
     "text_and_image_akXfdN",

@@ -246,7 +246,7 @@
         "product_4VHmhi": {
           "type": "product",
           "settings": {
-            "featured_product": "womens-cami-pant-set",
+            "featured_product": "mens-long-sleeve-tee-jogger-set",
             "vertical": 25,
             "horizontal": 25
           }
@@ -259,7 +259,7 @@
         "title": "Shop the look",
         "heading_size": "h2",
         "heading_position": "left",
-        "image": "shopify://shop_images/bamboo-socksSeamlessComfortBambooSocksBrownTZ-100-BB-BR-OSFA.jpg",
+        "image": "shopify://shop_images/DSC7789-Edit.jpg",
         "indent_image": false,
         "image_position": "left",
         "hotspot_style": "bag",

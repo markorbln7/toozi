@@ -17,7 +17,7 @@
         "announcement-1": {
           "type": "announcement",
           "settings": {
-            "text": "Subscribe & save 10% on your first order",
+            "text": "Free shipping on orders over $100",
             "link_text": "",
             "link": ""
           }

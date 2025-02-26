@@ -18,8 +18,11 @@
     {%- render 'gift-card-recipient-form', product: product, form: form, section: section -%}
   {%- endif -%}
   {% if product.metafields.custom.set_skus %}
-    <input hidden type="text" id="custom-color" name="properties[Set SKus]" value="{{product.metafields.custom.set_skus}}">
+    <input type="hidden" id="bundle-products" value="{{ product.metafields.custom.set_skus }}">
   {% endif %}
+  {% comment %} {% if product.metafields.custom.set_skus %}
+    <input hidden type="text" id="custom-color" name="properties[Set SKus]" value="{{product.metafields.custom.set_skus}}">
+  {% endif %} {% endcomment %}
   {%- if enable_dynamic_buttons -%}
     <div class="payment-buttons">
   {%- endif -%}
@@ -73,3 +76,153 @@
     {%- endfor -%}
   </select>
 {%- endform -%}
+{% if product.metafields.custom.set_skus %}
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const addToCartForm = document.querySelector(".product-single__form");
+    const addToCartButton = document.querySelector("[data-add-to-cart]");
+    const variantSelect = document.querySelector("[data-product-select]");
+
+    if (!addToCartForm || !addToCartButton || !variantSelect) return;
+
+    let selectedVariantId = variantSelect.value;
+
+    // Prati promene varijante i ažurira vrednost
+    variantSelect.addEventListener("change", function () {
+        selectedVariantId = this.value;
+        console.log("Updated selected variant:", selectedVariantId);
+    });
+    addToCartForm.addEventListener("submit", function (event) {
+      event.preventDefault();
+      console.log("Submit prevented! Only bundle products will be added.");
+    });
+
+    addToCartButton.addEventListener("click", function (event) {
+        event.preventDefault(); // Sprečavamo dodavanje glavnog proizvoda u korpu
+
+        const bundleProducts = document.getElementById("bundle-products")?.value;
+
+        if (!bundleProducts) {
+            console.error("No bundle products found.");
+            return;
+        }
+
+        const productHandles = bundleProducts.split(",").map(handle => handle.trim());
+
+        Promise.all([
+            fetch(`/products/${productHandles[0]}.js`).then(response => response.json()),
+            fetch(`/products/${productHandles[1]}.js`).then(response => response.json())
+        ])
+        .then(([product1, product2]) => {
+            console.log("Fetched bundle products:", product1, product2);
+
+            const selectedOptions = getSelectedOptions();
+            console.log("Selected options:", selectedOptions);
+
+            const variant1 = findMatchingVariant(product1, selectedOptions);
+            const variant2 = findMatchingVariant(product2, selectedOptions);
+
+            if (!variant1 || !variant2) {
+                console.error("Matching variants not found");
+                return;
+            }
+
+            // Dodajemo samo bundle proizvode, bez glavnog proizvoda
+            addBundleToCart(variant1.id, variant2.id);
+        })
+        .catch(error => console.error("Error fetching products:", error));
+    });
+
+    function getSelectedOptions() {
+        const selects = document.querySelectorAll(".product-single__variants option:checked");
+
+        let selectedValues = selects[0].innerText
+            .toLowerCase()
+            .replace(/ - \$[0-9,.]+ usd/i, "") // Brišemo cenu
+            .split(" / ") // Razdvajamo opcije (boja, veličina)
+            .map(opt => opt.trim());
+
+        console.log("Selected Options (User selected - Cleaned):", selectedValues);
+        return selectedValues;
+    }
+
+    function findMatchingVariant(product, selectedOptions) {
+        console.log(`Checking variants for product: ${product.title}`);
+        console.log("Selected Options (User selected):", selectedOptions);
+
+        let normalizedSelectedOptions = selectedOptions.map(opt => opt.toLowerCase().trim());
+
+        console.log("Normalized Selected Options:", normalizedSelectedOptions);
+
+        let foundVariant = product.variants.find(variant => {
+            let variantOptions = variant.options.map(opt => opt.trim().toLowerCase());
+
+            console.log(`Checking variant: ${variant.id}, options: ${variantOptions}`);
+
+            return JSON.stringify(variantOptions) === JSON.stringify(normalizedSelectedOptions);
+        });
+
+        if (!foundVariant) {
+            console.error(`No matching variant found for product ${product.title}`);
+        } else {
+            console.log(`Matching Variant Found: ${foundVariant.id}`);
+        }
+
+        return foundVariant;
+    }
+
+    function addBundleToCart(variantId1, variantId2) {
+      console.log("Adding bundle products to cart:", variantId1, variantId2);
+
+      fetch("/cart/add.js", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+              items: [
+                  { quantity: 1, id: variantId1 },
+                  { quantity: 1, id: variantId2 }
+              ]
+          })
+      }).then(response => response.json())
+      .then(() => {
+          console.log("Bundle products added successfully!");
+
+          // Osvežavamo cart drawer pomoću _updateCart()
+          if (theme.cart && typeof theme.cart._updateCart === "function") {
+              theme.cart._updateCart({
+                  url: theme.routes.cartUrl + '?t=' + Date.now(),
+                  data: JSON.stringify({})
+              }).then(() => {
+                  document.dispatchEvent(new Event('cart:build'));
+                  console.log("Cart updated and buildCart event triggered");
+
+                  // **Dodajemo ručno otvaranje cart drawera**
+                  document.dispatchEvent(new Event('cart:open'));
+                  console.log("Cart drawer should open now.");
+              });
+          } else {
+              console.warn("theme.cart._updateCart() is not available. Falling back to manual fetch.");
+
+              // Ako _updateCart ne postoji, fetchujemo /cart.js i osvežavamo HTML
+              fetch('/cart.js')
+              .then(response => response.json())
+              .then(cartData => {
+                  console.log("Cart manually updated:", cartData);
+                  document.dispatchEvent(new Event('cart:build'));
+
+                  // **Ručno otvaramo cart drawer**
+                  document.dispatchEvent(new Event('cart:open'));
+                  console.log("Cart drawer should open now.");
+              });
+          }
+      })
+      .catch(error => console.error("Error adding bundle products to cart:", error));
+  }
+
+
+
+
+});
+
+</script>
+{% endif %}

@@ -197,40 +197,10 @@
             "boxed": false,
             "framed": false
           }
-        },
-        "promo2-2": {
-          "type": "sale_collection",
-          "settings": {
-            "sale_collection": "accessories",
-            "top_text": "Up to",
-            "middle_text": "25% off",
-            "bottom_text": "Select products",
-            "width": "50",
-            "color_tint": "#000000",
-            "color_tint_opacity": 0,
-            "boxed": false,
-            "framed": false
-          }
-        },
-        "promo2-1": {
-          "type": "sale_collection",
-          "settings": {
-            "sale_collection": "womens",
-            "top_text": "Up to",
-            "middle_text": "50% off",
-            "bottom_text": "Select products",
-            "width": "50",
-            "color_tint": "#000000",
-            "color_tint_opacity": 0,
-            "boxed": false,
-            "framed": false
-          }
         }
       },
       "block_order": [
-        "promo2-0",
-        "promo2-2",
-        "promo2-1"
+        "promo2-0"
       ],
       "settings": {
         "full_width": false,

@@ -90,7 +90,7 @@
           "type": "newsletter",
           "settings": {
             "show_footer_title": true,
-            "title": "Sign up and save",
+            "title": "Stay connected",
             "text": "<h5>Enter your email for promotions and updates!</h5>",
             "container_width": 25
           }

@@ -135,7 +135,7 @@
         ".grid--flush-bottom {justify-content: center; display: flex;}"
       ],
       "settings": {
-        "title": "Meet our CEO",
+        "title": "Meet our Founder & CEO",
         "align_text": "center",
         "divider": false
       }
@@ -203,7 +203,7 @@
         "question_J3Dia3"
       ],
       "settings": {
-        "title": "MEET OUR CEO"
+        "title": ""
       }
     },
     "featured-collection": {

@@ -91,7 +91,7 @@
           "settings": {
             "show_footer_title": true,
             "title": "Sign up and save",
-            "text": "<h5>Enter your email for promotions, drops, and updates!</h5>",
+            "text": "<h5>Enter your email for promotions and updates!</h5>",
             "container_width": 25
           }
         },

@@ -103,8 +103,8 @@
           "type": "advanced",
           "settings": {
             "subheading": "BEST SELLER",
-            "heading": "Bamboo",
-            "textarea": "",
+            "heading": "Bamboo Collection",
+            "textarea": "Our signature bamboo fabric is a luxurious blend of comfort and sustainability.",
             "cta_text1": "explore collection",
             "cta_link1": "",
             "cta_text2": "",
@@ -125,7 +125,7 @@
           "settings": {
             "subheading": "",
             "heading": "RIBBED COLLECTION",
-            "textarea": "Copy to be updated on the website. This is just a dummy text for inout purposes.",
+            "textarea": "Combining the natural benefits of bamboo with a unique ribbed texture, this collection adds elegant dimension to your loungewear.",
             "cta_text1": "Shop Ribbed collection",
             "cta_link1": "",
             "cta_text2": "",

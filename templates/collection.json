@@ -47,7 +47,7 @@
           "type": "banner",
           "settings": {
             "heading": "{{ collection.metafields.custom.promo_title.value }}",
-            "text": "{{ collection.title }}",
+            "text": "",
             "link": "",
             "label": "Shop now",
             "color_tint": "#e95454",

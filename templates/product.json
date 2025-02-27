@@ -16,6 +16,12 @@
           "type": "price",
           "settings": {}
         },
+        "okendo_reviews_badge_pXWdtD": {
+          "type": "shopify://apps/okendo/blocks/reviews-badge/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "horizontal_alignment": "center"
+          }
+        },
         "separator": {
           "type": "separator",
           "settings": {}
@@ -80,6 +86,7 @@
       },
       "block_order": [
         "price",
+        "okendo_reviews_badge_pXWdtD",
         "separator",
         "variant_picker",
         "sales_point",

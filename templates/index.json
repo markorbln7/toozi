@@ -35,6 +35,9 @@
       "block_order": [
         "slideshow-0"
       ],
+      "custom_css": [
+        "h2 {font-family: \"Great Vibes\", cursive;}"
+      ],
       "settings": {
         "section_height": "750px",
         "mobile_height": "auto",

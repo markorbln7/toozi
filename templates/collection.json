@@ -47,7 +47,7 @@
           "type": "banner",
           "settings": {
             "heading": "{{ collection.metafields.custom.promo_title.value }}",
-            "text": "From seamless comfort socks to silky sleep masks, complete your look with luxe accessories!",
+            "text": "{{ collection.title }}",
             "link": "",
             "label": "Shop now",
             "color_tint": "#e95454",

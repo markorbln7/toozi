@@ -33,3 +33,6 @@
         height: 600px;
     }
 }
+.megamenu .svg-mask--landscape {
+    padding-top: 100%;
+}

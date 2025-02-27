@@ -145,10 +145,10 @@
     "text-and-image2": {
       "type": "text-and-image",
       "settings": {
-        "remove_second_image": false,
-        "image": "{{ product.metafields.custom.image_second.value }}",
+        "remove_second_image": true,
+        "image": "shopify://shop_images/womens-silky-robe-white-TZ-008-8329-2-S-2.jpg",
         "image_mask": "none",
-        "image2": "{{ product.metafields.custom.image_third.value }}",
+        "image2": "shopify://shop_images/womens-silky-robeWomen_sUltra-LuxeRobe-black-TZ-008-8329-1-S-4.jpg",
         "image2_mask": "none",
         "subtitle": "CUSTOMIZABLE",
         "title": "Customization& Expert Tailoring",
@@ -386,7 +386,7 @@
       "type": "text-and-image",
       "settings": {
         "remove_second_image": true,
-        "image": "shopify://shop_images/0e662f18294fe79f3a44871c18d6a217.jpg",
+        "image": "shopify://shop_images/womens-ribbed-bamboo-chemise-creamTZ-001A-6351-21-XS-1.jpg",
         "image_mask": "none",
         "image2_mask": "none",
         "subtitle": "Soft & breathable",

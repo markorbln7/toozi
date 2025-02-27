@@ -18,12 +18,12 @@
             "product": "{{product}}"
           }
         },
-        "price": {
-          "type": "price",
-          "settings": {}
-        },
         "separator": {
           "type": "separator",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
           "settings": {}
         },
         "variant_picker": {
@@ -86,8 +86,8 @@
       },
       "block_order": [
         "okendo_star_rating_T4Enfz",
-        "price",
         "separator",
+        "price",
         "variant_picker",
         "sales_point",
         "inventory_status",

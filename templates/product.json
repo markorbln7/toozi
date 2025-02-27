@@ -144,7 +144,7 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "product_recommendations_heading": "STYLE IT WITH...",
+        "product_recommendations_heading": "Customers Also Liked",
         "related_count": 3,
         "products_per_row": 3
       }

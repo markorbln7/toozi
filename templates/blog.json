@@ -65,7 +65,7 @@
         "collection4"
       ],
       "settings": {
-        "title": "You may also like",
+        "title": "Shop by category",
         "divider": false,
         "per_row": 4,
         "enable_gutter": true

@@ -26,6 +26,12 @@
           "type": "price",
           "settings": {}
         },
+        "size_chart_HNcVW7": {
+          "type": "size_chart",
+          "settings": {
+            "size_chart": "size-chart"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -88,6 +94,7 @@
         "okendo_star_rating_T4Enfz",
         "separator",
         "price",
+        "size_chart_HNcVW7",
         "variant_picker",
         "sales_point",
         "inventory_status",

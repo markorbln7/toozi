@@ -46,7 +46,7 @@
         "banner": {
           "type": "banner",
           "settings": {
-            "heading": "COMPLETE THE LOOK",
+            "heading": "{{ collection.metafields.custom.promo_title.value }}",
             "text": "From seamless comfort socks to silky sleep masks, complete your look with luxe accessories!",
             "link": "",
             "label": "Shop now",

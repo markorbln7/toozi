@@ -1,7 +1,7 @@
-.image-wrap {
+.grid-product__image-mask .image-wrap {
     padding-bottom: 125% !important;
 }
-.image-wrap img {
+.grid-product__image-mask .image-wrap img {
     height: 100% !important;
 }
 .product-image--placeholder {
@@ -11,3 +11,19 @@
     top: 0;
     width: 100%;
 }
+.work-sans-font {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Great Vibes';
+    src: url('{{ "GreatVibes-Regular.ttf" | asset_url }}') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .h1.hero__title {
+    font-family: 'Great Vibes', cursive !important;
+    text-transform: none !important;
+  }

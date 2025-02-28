@@ -206,58 +206,16 @@
         "title": ""
       }
     },
-    "slideshow_KJprgK": {
-      "type": "slideshow",
-      "blocks": {
-        "image_M9m8Ra": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "AS SEEN IN",
-            "title_size": 80,
-            "subheading": "BELLA MAGAZINE",
-            "link": "https://bellamedia.co/cover-parties/bella-magazines-december-2024-holiday-gift-guide-issue-cover-party-with-jill-martin?rq=TOOZI",
-            "link_text": "BELLA MAGAZINE",
-            "link_2": "https://bellamedia.co/shop/p/bella-magazines-2025-self-discovery-issue-featuring-poppy-liu",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/Untitled_design-4.png",
-            "image_mobile": "shopify://shop_images/Untitled_design-4.png",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
-        },
-        "image_GnCQc7": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "Two line\ntitle slide.",
-            "title_size": 80,
-            "subheading": "And big, beautiful imagery",
-            "link": "",
-            "link_text": "Optional button",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_M9m8Ra",
-        "image_GnCQc7"
-      ],
+    "image_with_text_KfpmHA": {
+      "type": "image-with-text",
       "settings": {
-        "section_height": "650px",
-        "mobile_height": "auto",
-        "parallax": true,
-        "style": "bars",
-        "autoplay": true,
-        "autoplay_speed": 5,
-        "lazyload_images": true
+        "image": "shopify://shop_images/Untitled_design-4.png",
+        "image_position": "left",
+        "image_width": 50,
+        "title": "AS SEEN IN",
+        "content": "<p>BELLA MAGAZINE</p>",
+        "button_text": "READ MORE",
+        "button_link": "https://bellamedia.co/shop/p/bella-magazines-2025-self-discovery-issue-featuring-poppy-liu"
       }
     },
     "featured-collection": {
@@ -293,7 +251,7 @@
     "slideshow_CVE6Xp",
     "text-columns",
     "faq_6AxrnD",
-    "slideshow_KJprgK",
+    "image_with_text_KfpmHA",
     "featured-collection",
     "form"
   ]

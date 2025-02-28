@@ -210,7 +210,7 @@
       "type": "image-with-text",
       "settings": {
         "image": "shopify://shop_images/Untitled_design-4.png",
-        "image_position": "left",
+        "image_position": "right",
         "image_width": 50,
         "title": "AS SEEN IN",
         "content": "<p>BELLA MAGAZINE</p>",

@@ -223,6 +223,7 @@
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify://shop_images/BELLA_MAGAZINE_LOGO_R.png",
+            "image_mobile": "shopify://shop_images/BELLA_MAGAZINE_LOGO_R.png",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }

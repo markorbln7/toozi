@@ -265,6 +265,28 @@
       ],
       "settings": {}
     },
+    "text_and_image_akXfdN": {
+      "type": "text-and-image",
+      "settings": {
+        "remove_second_image": true,
+        "image": "shopify://shop_images/womens-ribbed-bamboo-chemise-creamTZ-001A-6351-21-XS-1.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "Soft & breathable",
+        "title": "Lightweight fabric",
+        "text": "<p>Each piece is designed with a modern aesthetic, blending comfort with contemporary style.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
     "testimonials": {
       "type": "testimonials",
       "blocks": {
@@ -366,22 +388,23 @@
         "recent_count": 5
       }
     },
-    "text_and_image_akXfdN": {
+    "text-and-image2": {
       "type": "text-and-image",
       "settings": {
         "remove_second_image": true,
-        "image": "shopify://shop_images/womens-ribbed-bamboo-chemise-creamTZ-001A-6351-21-XS-1.jpg",
+        "image": "shopify://shop_images/womens-silky-robe-white-TZ-008-8329-2-S-2.jpg",
         "image_mask": "none",
+        "image2": "shopify://shop_images/womens-silky-robeWomen_sUltra-LuxeRobe-black-TZ-008-8329-1-S-4.jpg",
         "image2_mask": "none",
-        "subtitle": "Soft & breathable",
-        "title": "Lightweight fabric",
-        "text": "<p>Each piece is designed with a modern aesthetic, blending comfort with contemporary style.</p>",
+        "subtitle": "CUSTOMIZABLE",
+        "title": "Customization& Expert Tailoring",
+        "text": "<p>Add a personal touch to your sleepwear with custom embroidery. Perfect for gifts & special moments. Members enjoy expert tailoring for the perfect fit. Luxury, personalized just for you!</p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
         "align_text": "left",
         "image_width": "50",
-        "layout": "left",
+        "layout": "right",
         "divider": false,
         "top_padding": true,
         "bottom_padding": true,
@@ -413,29 +436,6 @@
         "full_width": false,
         "space_around": true
       }
-    },
-    "text-and-image2": {
-      "type": "text-and-image",
-      "settings": {
-        "remove_second_image": true,
-        "image": "shopify://shop_images/womens-silky-robe-white-TZ-008-8329-2-S-2.jpg",
-        "image_mask": "none",
-        "image2": "shopify://shop_images/womens-silky-robeWomen_sUltra-LuxeRobe-black-TZ-008-8329-1-S-4.jpg",
-        "image2_mask": "none",
-        "subtitle": "CUSTOMIZABLE",
-        "title": "Customization& Expert Tailoring",
-        "text": "<p>Add a personal touch to your sleepwear with custom embroidery. Perfect for gifts & special moments. Members enjoy expert tailoring for the perfect fit. Luxury, personalized just for you!</p>",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "primary",
-        "align_text": "left",
-        "image_width": "50",
-        "layout": "right",
-        "divider": false,
-        "top_padding": true,
-        "bottom_padding": true,
-        "lazyload_images": true
-      }
     }
   },
   "order": [
@@ -445,9 +445,9 @@
     "product-recommendations",
     "rich_text_mLix4k",
     "chiron_3cY9xJ",
+    "text_and_image_akXfdN",
     "testimonials",
     "recently-viewed",
-    "text_and_image_akXfdN",
     "text-and-image2",
     "collection-return",
     "174061863591b3ce91"

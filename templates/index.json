@@ -36,7 +36,7 @@
         "slideshow-0"
       ],
       "custom_css": [
-        "h2 {font-family: \"Great Vibes\", cursive;}"
+        "h2 {font-family: \"Great Vibes\", cursive; text-decoration:none;}"
       ],
       "settings": {
         "section_height": "750px",

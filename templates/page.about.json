@@ -206,6 +206,59 @@
         "title": ""
       }
     },
+    "slideshow_xegaEp": {
+      "type": "slideshow",
+      "blocks": {
+        "image_WpRDPt": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "AS SEEN IN",
+            "title_size": 80,
+            "subheading": "BELLA MAGAZINE",
+            "link": "https://bellamedia.co/cover-parties/bella-magazines-december-2024-holiday-gift-guide-issue-cover-party-with-jill-martin?rq=TOOZI",
+            "link_text": "TOOZI x BELLA",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/BELLA_MAGAZINE_LOGO_R.png",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
+        "image_XBwqYH": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Two line\ntitle slide.",
+            "title_size": 80,
+            "subheading": "And big, beautiful imagery",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_WpRDPt",
+        "image_XBwqYH"
+      ],
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
@@ -239,6 +292,7 @@
     "slideshow_CVE6Xp",
     "text-columns",
     "faq_6AxrnD",
+    "slideshow_xegaEp",
     "featured-collection",
     "form"
   ]

@@ -206,10 +206,10 @@
         "title": ""
       }
     },
-    "slideshow_xegaEp": {
+    "slideshow_KJprgK": {
       "type": "slideshow",
       "blocks": {
-        "image_WpRDPt": {
+        "image_M9m8Ra": {
           "type": "image",
           "settings": {
             "top_subheading": "",
@@ -217,18 +217,18 @@
             "title_size": 80,
             "subheading": "BELLA MAGAZINE",
             "link": "https://bellamedia.co/cover-parties/bella-magazines-december-2024-holiday-gift-guide-issue-cover-party-with-jill-martin?rq=TOOZI",
-            "link_text": "TOOZI x BELLA",
-            "link_2": "",
+            "link_text": "BELLA MAGAZINE",
+            "link_2": "https://bellamedia.co/shop/p/bella-magazines-2025-self-discovery-issue-featuring-poppy-liu",
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/BELLA_MAGAZINE_LOGO_R.png",
-            "image_mobile": "shopify://shop_images/BELLA_MAGAZINE_LOGO_R.png",
+            "image": "shopify://shop_images/womens-silky-robeWomen_sUltra-LuxeRobe-black-TZ-008-8329-1-S-4_7da406db-7c7a-4124-8995-80d295838331.jpg",
+            "image_mobile": "shopify://shop_images/BELLALogoYellow.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
         },
-        "image_XBwqYH": {
+        "image_GnCQc7": {
           "type": "image",
           "settings": {
             "top_subheading": "",
@@ -247,8 +247,8 @@
         }
       },
       "block_order": [
-        "image_WpRDPt",
-        "image_XBwqYH"
+        "image_M9m8Ra",
+        "image_GnCQc7"
       ],
       "settings": {
         "section_height": "650px",
@@ -293,7 +293,7 @@
     "slideshow_CVE6Xp",
     "text-columns",
     "faq_6AxrnD",
-    "slideshow_xegaEp",
+    "slideshow_KJprgK",
     "featured-collection",
     "form"
   ]

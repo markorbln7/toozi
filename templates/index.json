@@ -149,6 +149,10 @@
         "advanced_crDeWR",
         "advanced_3wi3yG"
       ],
+      "custom_css": [
+        ".promo-grid--space-top {padding-top: 10px;}",
+        "@media only screen and (min-width: 769px) {.promo-grid--space-top {padding-top: 75px; }}"
+      ],
       "settings": {
         "full_width": false,
         "gutter_size": 20,

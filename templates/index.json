@@ -52,7 +52,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Popular picks",
-        "home_featured_products": "womens",
+        "home_featured_products": "bamboo",
         "per_row": 3,
         "rows": 2,
         "mobile_scrollable": true,

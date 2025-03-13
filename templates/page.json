@@ -1,1 +1,70 @@
-{"sections":{"main":{"type":"main-page","settings":{}}},"order":["main"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "slideshow_JjJtih": {
+      "type": "slideshow",
+      "blocks": {
+        "image_g76a8t": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Wedding Collection",
+            "title_size": 60,
+            "subheading": "Coming Soon",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-bottom horizontal-center",
+            "image": "shopify://shop_images/womens-silky-robe-white-TZ-008-8329-2-S-3_4053c0ee-cbe4-43ff-8dec-b58c5d2bc980.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_g76a8t"
+      ],
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
+    "featured_collection_73gizA": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "home_featured_products": "silky",
+        "per_row": 4,
+        "rows": 4,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_JjJtih",
+    "featured_collection_73gizA"
+  ]
+}

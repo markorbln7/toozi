@@ -344,10 +344,10 @@
         "content_wxyEEk": {
           "type": "content",
           "settings": {
-            "heading": "Mother's Day Countdown",
+            "heading": "Mother's Day Is Coming!",
             "heading_size": "h2",
             "text": "<p>Order by April 30th to guarantee delivery by Mother's Day!</p>",
-            "content_alignment": "left"
+            "content_alignment": "center"
           }
         },
         "timer_mX67Af": {

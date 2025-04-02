@@ -344,9 +344,9 @@
         "content_wxyEEk": {
           "type": "content",
           "settings": {
-            "heading": "Mother's Day Is Coming!",
+            "heading": "Mother's Day!",
             "heading_size": "h2",
-            "text": "<p>Order by April 30th to guarantee delivery by Mother's Day!</p>",
+            "text": "<p>Order by April 30th to guarantee delivery by Mother's Day, because mom deserves to Sleep Beautifully...</p>",
             "content_alignment": "center"
           }
         },
@@ -356,7 +356,7 @@
             "year": "2025",
             "month": "04",
             "day": "30",
-            "hour": "00",
+            "hour": "12",
             "minute": "00",
             "hide_timer": false,
             "text": ""
@@ -379,9 +379,9 @@
       "settings": {
         "layout": "banner",
         "full_width": false,
-        "text_color": "#000",
-        "background_color": "#FFF",
-        "overlay_color": "#000",
+        "text_color": "#000000",
+        "background_color": "#ffffff",
+        "overlay_color": "#000000",
         "overlay_opacity": 0,
         "lazyload_images": true
       }

@@ -30,54 +30,6 @@
         "announcement_compact": true
       }
     },
-    "countdown_XcYJH4": {
-      "type": "countdown",
-      "blocks": {
-        "content_idyipX": {
-          "type": "content",
-          "settings": {
-            "heading": "Mother's Day!",
-            "heading_size": "h2",
-            "text": "<p>Order by April 30th to guarantee delivery by Mother's Day, because mom deserves to Sleep Beautifully...</p>",
-            "content_alignment": "center"
-          }
-        },
-        "timer_EWiK3g": {
-          "type": "timer",
-          "settings": {
-            "year": "2025",
-            "month": "04",
-            "day": "30",
-            "hour": "12",
-            "minute": "00",
-            "hide_timer": false,
-            "text": ""
-          }
-        },
-        "button_DXFfzB": {
-          "type": "button",
-          "settings": {
-            "button_link": "",
-            "button": "Shop Collection",
-            "button_style": "solid"
-          }
-        }
-      },
-      "block_order": [
-        "content_idyipX",
-        "timer_EWiK3g",
-        "button_DXFfzB"
-      ],
-      "settings": {
-        "layout": "banner",
-        "full_width": false,
-        "text_color": "#000000",
-        "background_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "lazyload_images": true
-      }
-    },
     "header": {
       "type": "header",
       "blocks": {
@@ -111,7 +63,6 @@
   },
   "order": [
     "announcement",
-    "countdown_XcYJH4",
     "header"
   ]
 }
